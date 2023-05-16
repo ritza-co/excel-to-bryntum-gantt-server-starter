@@ -1,0 +1,225 @@
+{
+  "success": true,
+  "tasks": {
+    "rows": [
+      {
+        "id": 0,
+        "name": "Phase 1 Title",
+        "expanded": true
+      },
+      {
+        "id": 1,
+        "name": "Task 1",
+        "parentId": 0,
+        "resourceAssignment": "Name",
+        "percentDone": 50,
+        "startDate": "Mon May 15 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Thu May 18 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 2,
+        "name": "Task 2",
+        "parentId": 0,
+        "percentDone": 60,
+        "startDate": "Thu May 18 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Sat May 20 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 3,
+        "name": "Task 3",
+        "parentId": 0,
+        "percentDone": 50,
+        "startDate": "Sat May 20 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Wed May 24 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 4,
+        "name": "Task 4",
+        "parentId": 0,
+        "percentDone": 25,
+        "startDate": "Wed May 24 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon May 29 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 5,
+        "name": "Task 5",
+        "parentId": 0,
+        "percentDone": null,
+        "startDate": "Fri May 19 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Sun May 21 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 6,
+        "name": "Phase 2 Title",
+        "expanded": true
+      },
+      {
+        "id": 7,
+        "name": "Task 1",
+        "parentId": 6,
+        "percentDone": 50,
+        "startDate": "Sat May 20 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Wed May 24 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 8,
+        "name": "Task 2",
+        "parentId": 6,
+        "percentDone": 50,
+        "startDate": "Mon May 22 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Sat May 27 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 9,
+        "name": "Task 3",
+        "parentId": 6,
+        "percentDone": null,
+        "startDate": "Sat May 27 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Tue May 30 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 10,
+        "name": "Task 4",
+        "parentId": 6,
+        "percentDone": null,
+        "startDate": "Sat May 27 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon May 29 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 11,
+        "name": "Task 5",
+        "parentId": 6,
+        "percentDone": null,
+        "startDate": "Sat May 27 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Tue May 30 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 12,
+        "name": "Phase 3 Title",
+        "expanded": true
+      },
+      {
+        "id": 13,
+        "name": "Task 1",
+        "parentId": 12,
+        "percentDone": null,
+        "startDate": "Tue May 30 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Sun Jun 04 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 14,
+        "name": "Task 2",
+        "parentId": 12,
+        "percentDone": null,
+        "startDate": "Mon Jun 05 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Fri Jun 09 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 15,
+        "name": "Task 3",
+        "parentId": 12,
+        "percentDone": null,
+        "startDate": "Sat Jun 10 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Thu Jun 15 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 16,
+        "name": "Task 4",
+        "parentId": 12,
+        "percentDone": null,
+        "startDate": "Fri Jun 16 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Tue Jun 20 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 17,
+        "name": "Task 5",
+        "parentId": 12,
+        "percentDone": null,
+        "startDate": "Sat Jun 10 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Wed Jun 14 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 18,
+        "name": "Phase 4 Title",
+        "expanded": true
+      },
+      {
+        "id": 19,
+        "name": "Task 1",
+        "parentId": 18,
+        "percentDone": null,
+        "startDate": "Sun Jun 04 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Thu Jun 08 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 20,
+        "name": "Task 2",
+        "parentId": 18,
+        "percentDone": null,
+        "startDate": "Mon Jun 05 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Fri Jun 09 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 21,
+        "name": "Task 3",
+        "parentId": 18,
+        "percentDone": null,
+        "startDate": "Sun Jun 11 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Tue Jun 13 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 22,
+        "name": "Task 4",
+        "parentId": 18,
+        "percentDone": null,
+        "startDate": "Wed Jun 14 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Sat Jun 17 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 23,
+        "name": "Task 5",
+        "parentId": 18,
+        "percentDone": null,
+        "startDate": "Sun Jun 18 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Fri Jun 23 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "manuallyScheduled": true
+      }
+    ]
+  },
+  "resources": {
+    "rows": [
+      {
+        "id": 0,
+        "name": "Name"
+      }
+    ]
+  },
+  "assignments": {
+    "rows": [
+      {
+        "id": 0,
+        "event": 1,
+        "resource": 0
+      }
+    ]
+  }
+}

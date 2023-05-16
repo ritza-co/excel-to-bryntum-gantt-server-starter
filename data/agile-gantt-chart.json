@@ -1,0 +1,225 @@
+{
+  "success": true,
+  "tasks": {
+    "rows": [
+      {
+        "id": 0,
+        "name": "Project development",
+        "expanded": true
+      },
+      {
+        "id": 1,
+        "name": "Project charter",
+        "parentId": 0,
+        "category": "Goal",
+        "resourceAssignment": "Name",
+        "percentDone": 25,
+        "startDate": "Tue May 16 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "3",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 2,
+        "name": "Research",
+        "parentId": 0,
+        "category": "Milestone",
+        "percentDone": 0,
+        "startDate": "Sun May 21 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": 0,
+        "manuallyScheduled": true
+      },
+      {
+        "id": 3,
+        "name": "Projections",
+        "parentId": 0,
+        "category": "Low Risk",
+        "percentDone": 50,
+        "startDate": "Sat May 13 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "10",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 4,
+        "name": "Stakeholders",
+        "parentId": 0,
+        "category": "Milestone",
+        "percentDone": 0,
+        "startDate": "Mon Jun 05 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": 0,
+        "manuallyScheduled": true
+      },
+      {
+        "id": 5,
+        "name": "Review",
+        "parentId": 0,
+        "category": "Med Risk",
+        "percentDone": 10,
+        "startDate": "Mon May 22 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "6",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 6,
+        "name": "Contracts",
+        "expanded": true
+      },
+      {
+        "id": 7,
+        "name": "Proposals",
+        "parentId": 6,
+        "category": "High Risk",
+        "percentDone": 60,
+        "startDate": "Mon May 22 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "13",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 8,
+        "name": "Document review",
+        "parentId": 6,
+        "category": "On Track",
+        "percentDone": 50,
+        "startDate": "Wed May 24 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "9",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 9,
+        "name": "Bid date",
+        "parentId": 6,
+        "category": "Low Risk",
+        "percentDone": 33,
+        "startDate": "Mon May 29 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "11",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 10,
+        "name": "Award date",
+        "parentId": 6,
+        "category": "Milestone",
+        "percentDone": 0,
+        "startDate": "Wed May 31 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": 0,
+        "manuallyScheduled": true
+      },
+      {
+        "id": 11,
+        "name": "Finalize",
+        "parentId": 6,
+        "category": "",
+        "percentDone": 0,
+        "startDate": "Thu Jun 01 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "24",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 12,
+        "name": "Design",
+        "expanded": true
+      },
+      {
+        "id": 13,
+        "name": "Feasibility study",
+        "parentId": 12,
+        "category": "On Track",
+        "percentDone": 0,
+        "startDate": "Wed May 31 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "4",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 14,
+        "name": "Submit permit applications",
+        "parentId": 12,
+        "category": "Med Risk",
+        "percentDone": 0,
+        "startDate": "Sat Jun 03 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "14",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 15,
+        "name": "Design proposal",
+        "parentId": 12,
+        "category": "On Track",
+        "percentDone": 0,
+        "startDate": "Sun Jun 18 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "6",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 16,
+        "name": "Materials",
+        "parentId": 12,
+        "category": "Goal",
+        "percentDone": 0,
+        "startDate": "Thu Jun 22 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "3",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 17,
+        "name": "Equipment",
+        "parentId": 12,
+        "category": "Low Risk",
+        "percentDone": 0,
+        "startDate": "Mon May 22 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "19",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 18,
+        "name": "Testing",
+        "expanded": true
+      },
+      {
+        "id": 19,
+        "name": "Environment",
+        "parentId": 18,
+        "category": "",
+        "percentDone": 0,
+        "startDate": "Sun Jun 25 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "15",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 20,
+        "name": "System test",
+        "parentId": 18,
+        "category": "",
+        "percentDone": 0,
+        "startDate": "Sun Jul 09 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": "5",
+        "manuallyScheduled": true
+      },
+      {
+        "id": 21,
+        "name": "Issues/bugs",
+        "parentId": 18,
+        "category": "Milestone",
+        "percentDone": 0,
+        "startDate": "Sun Aug 20 2023 00:00:00 GMT+0200 (South Africa Standard Time)",
+        "duration": 0,
+        "manuallyScheduled": true
+      }
+    ]
+  },
+  "resources": {
+    "rows": [
+      {
+        "id": 0,
+        "name": "Name"
+      }
+    ]
+  },
+  "assignments": {
+    "rows": [
+      {
+        "id": 0,
+        "event": 1,
+        "resource": 0
+      }
+    ]
+  }
+}

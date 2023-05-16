@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import fs from "fs/promises";
 
 const app = express();
 const port = 3000;
@@ -13,7 +14,10 @@ app.use(
 
 app.get("/download", async (req, res) => {
   try {
-    res.json({ success: true });
+    const data = await fs.readFile("./data/simple-gantt-chart.json", "utf-8");
+    const jsonData = JSON.parse(data);
+    res.json(jsonData);
+    // res.json({ success: true });
   } catch (error) {
     console.error("Error: ", error);
     res.status(500).send("An error occurred.");
